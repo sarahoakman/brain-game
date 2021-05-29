@@ -1,0 +1,122 @@
+.navPadding {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.glassStyle {
+  text-align: center;
+  margin: auto;
+  margin-top: 40px;
+  max-width: 900px;
+  padding: 10px 0px;
+  width: 90%;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  color: white;
+}
+
+.image {
+  display: block;
+  margin: auto;
+  width: 220px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.inputItem {
+  margin: 0px 20px;
+  text-align: left;
+}
+
+.inputItem > * {
+  color: grey;
+}
+
+.accPadding {
+  margin: 10px 0px;
+}
+
+.gameTitle {
+  margin: 20px 0px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.flexImageRow {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+  align-items: center;
+}
+
+.questionContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 480px) {
+  .questionContainer {
+  	width: 90%;
+  }
+}
+
+.questionItem {
+  margin: 10px 20px;
+  padding-bottom: 25px;
+  width: 94%;
+  text-align: left;
+  border-bottom: 1px solid lightgrey;
+}
+
+.answerItem {
+  padding-left: 20px;
+}
+
+.questionItem > * {
+	margin-bottom: 5px;
+	color: grey;
+}
+
+.questionDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.icon {
+   height: 40px;
+   margin: auto;
+ }
+
+ .flexAnswerRow {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ .answerCorrectLabel {
+   color: grey;
+ }
+
+ .answerCorrectLabel span {
+   font-size: 13px;
+ }

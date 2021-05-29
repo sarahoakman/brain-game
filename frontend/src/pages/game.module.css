@@ -1,0 +1,236 @@
+.glassStyle {
+  text-align: center;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  color: white;
+}
+
+.joinContainer {
+  composes: glassStyle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-60%);
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-between;
+  padding: 30px 50px;
+}
+
+@media only screen and (max-width: 570px) {
+  .joinContainer {
+    width: 70%;
+    padding: 30px 30px;
+  }
+}
+
+.joinButton {
+  margin: 10px 0;
+  height: 56px;
+}
+
+.lobbyFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.lobbyContainer {
+  composes: glassStyle;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 130px;
+  max-width: 900px;
+  width: 90%;
+}
+
+@media only screen and (max-width: 500px) {
+  .lobbyImage {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .lobbyImage {
+    width: 300px;
+  }
+
+  .lobbyContainer {
+    margin-top: 40px;
+  }
+}
+
+.gameContainer {
+  composes: glassStyle;
+  margin: auto;
+  margin-top: 10px;
+  max-width: 1400px;
+  width: 90%;
+}
+
+.titleDiv {
+  composes: glassStyle;
+  max-width: 1250px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clockDiv {
+  composes: glassStyle;
+  max-width: 100px;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  fontSize: 20px;
+}
+
+.titleStyle {
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.gameFlexRow {
+  display: flex;
+  margin: 0px 30px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.gridContainer {
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  align-items: stretch;
+  padding-bottom: 30px;
+}
+
+.answerDiv {
+  margin: 30px;
+  margin-bottom: 32px;
+}
+
+.answerStyle {
+  padding: 0 10px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 80px;
+  height: 100%;
+  margin: 0;
+}
+
+.answerCorrect {
+  composes: answerStyle;
+  background-color: #9dff9d;
+}
+
+.answerIncorrect {
+  composes: answerStyle;
+  background-color: #ff595d;
+}
+
+.answerStyle1 {
+  composes: answerStyle;
+  background-color: #cfeaf2;
+  color: #3377ff;
+}
+
+.answerStyle2 {
+  composes: answerStyle;
+  background-color: #fedea6;
+  color: #956203;
+}
+
+.answerStyle3 {
+  composes: answerStyle;
+  background-color: #fdd6e4;
+  color: #f64457;
+}
+
+.answerStyle4 {
+  composes: answerStyle;
+  background-color: #bcc8ff;
+  color: #6357ff;
+}
+
+.answerStyle5 {
+  composes: answerStyle;
+  background-color: #d6dc9d;
+  color: #546d27;
+}
+
+.answerStyle6 {
+  composes: answerStyle;
+  background-color: #feb3a7;
+  color: #bd3c02;
+}
+
+.attachmentStyle {
+  max-width: 640px;
+  margin: auto;
+}
+
+.imageStyle {
+  max-width: 400px;
+  width: 100%;
+}
+
+.resultContainer {
+  composes: glassStyle;
+  margin: auto;
+  margin-top: 45px;
+  max-width: 900px;
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.resultDiv {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 40px;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexRow {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+  margin-right: 5px;
+}
+
+.text {
+  text-align: left;
+  width: 200px;
+  margin-left: 5px;
+}

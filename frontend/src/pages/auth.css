@@ -1,0 +1,16 @@
+
+html.login {
+  background: url(https://i.pinimg.com/originals/c7/39/83/c739830ada7ea71fefed868be577b57c.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+html.signup {
+  background: url(https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-h5-ad-gradient-purple-image_37916.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

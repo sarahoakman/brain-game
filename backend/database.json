@@ -1,0 +1,184 @@
+{
+  "admins": {
+    "hayden@unsw.edu.au": {
+      "name": "",
+      "password": "test",
+      "sessionActive": true
+    }
+  },
+  "quizzes": {
+    "259827621": {
+      "name": "title",
+      "owner": "hayden@unsw.edu.au",
+      "questions": [
+        {
+          "id": 0,
+          "type": "multiple",
+          "text": "question 1 !",
+          "time_limit": "00:20",
+          "points": "10",
+          "src": null,
+          "answer": [
+            {
+              "id": 0,
+              "text": "a",
+              "correct": true
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "correct": true
+            },
+            {
+              "id": 2,
+              "text": "c",
+              "correct": false
+            },
+            {
+              "id": 3,
+              "text": "d",
+              "correct": false
+            },
+            {
+              "id": 4,
+              "text": "e",
+              "correct": false
+            },
+            {
+              "id": 5,
+              "text": "f",
+              "correct": false
+            }
+          ],
+          "youtube": "https://www.youtube.com/watch?v=ug50zmP9I7s"
+        },
+        {
+          "id": 1,
+          "type": "single",
+          "text": "question 2 !",
+          "time_limit": "00:20",
+          "points": "10",
+          "src": null,
+          "answer": [
+            {
+              "id": 0,
+              "text": "a",
+              "correct": false
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "correct": true
+            },
+            {
+              "id": 2,
+              "text": "c",
+              "correct": false
+            },
+            {
+              "id": 3,
+              "text": "d",
+              "correct": false
+            }
+          ],
+          "youtube": "https://www.youtube.com/watch?v=ug50zmP9I7s"
+        }
+      ],
+      "thumbnail": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO9TXL0Y4OHwAAAABJRU5ErkJggg==",
+      "active": null,
+      "createdAt": "2021-04-23T05:48:46.002Z"
+    },
+    "811364139": {
+      "name": "new",
+      "owner": "hayden@unsw.edu.au",
+      "questions": [],
+      "thumbnail": null,
+      "active": null,
+      "createdAt": "2021-04-23T05:48:36.884Z"
+    }
+  },
+  "sessions": {
+    "926676": {
+      "quizId": "259827621",
+      "position": -1,
+      "isoTimeLastQuestionStarted": null,
+      "players": {},
+      "questions": [
+        {
+          "id": 0,
+          "type": "multiple",
+          "text": "question 1 !",
+          "time_limit": "00:20",
+          "points": "10",
+          "src": null,
+          "answer": [
+            {
+              "id": 0,
+              "text": "a",
+              "correct": true
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "correct": true
+            },
+            {
+              "id": 2,
+              "text": "c",
+              "correct": false
+            },
+            {
+              "id": 3,
+              "text": "d",
+              "correct": false
+            },
+            {
+              "id": 4,
+              "text": "e",
+              "correct": false
+            },
+            {
+              "id": 5,
+              "text": "f",
+              "correct": false
+            }
+          ],
+          "youtube": "https://www.youtube.com/watch?v=ug50zmP9I7s"
+        },
+        {
+          "id": 1,
+          "type": "single",
+          "text": "question 2 !",
+          "time_limit": "00:20",
+          "points": "10",
+          "src": null,
+          "answer": [
+            {
+              "id": 0,
+              "text": "a",
+              "correct": false
+            },
+            {
+              "id": 1,
+              "text": "b",
+              "correct": true
+            },
+            {
+              "id": 2,
+              "text": "c",
+              "correct": false
+            },
+            {
+              "id": 3,
+              "text": "d",
+              "correct": false
+            }
+          ],
+          "youtube": "https://www.youtube.com/watch?v=ug50zmP9I7s"
+        }
+      ],
+      "active": false,
+      "answerAvailable": false
+    }
+  }
+}

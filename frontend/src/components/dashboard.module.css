@@ -1,0 +1,42 @@
+.glassStyle {
+  text-align: center;
+  width: 90%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  color: white;
+}
+
+.emptyContainer {
+  composes: glassStyle;
+  margin: auto;
+  max-width: 500px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.thumbnail {
+   width: 100%;
+   border-radius: 10px;
+ }
+
+.thumbnailContainer {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+}
+
+.navPadding {
+  margin: 10px 50px;
+}
+
+.stretchHeight {
+  align-items: stretch;
+}
+
+.container {
+  color: white;
+  margin: 40px 0px 10px 0px;
+  text-align: center;
+}
