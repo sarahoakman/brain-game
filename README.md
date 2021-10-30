@@ -1,4 +1,5 @@
 # Fake Kahoot
+![](kahoot.gif)
 ## Overview
 * Developed a quiz website that is loosely based on kahoot for a university course
 * Used React to develop the frontend
